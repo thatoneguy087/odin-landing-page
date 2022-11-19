@@ -1,28 +1,24 @@
 * {
   padding-left: 0;
   margin: 0;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
-  padding: 0 50px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
+header {
+  background: #1F2937;
+  height: 64px;
 }
 
 header .container {
-  height: 42px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1F2937;
+  height: 100%;
 }
 
 header .logo {
@@ -31,13 +27,15 @@ header .logo {
   font-weight: bold;
 }
 
-header .container .links{
+header .container ul{
+  list-style-type: none;
   display: flex;
 }
 
 header a {
+  text-decoration: none;
   color: #E5E7EB;
   font-size: 18px;
-  margin-left: 12px;
+  margin-left: 16px;
 }
 
