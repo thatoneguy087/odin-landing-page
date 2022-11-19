@@ -7,8 +7,10 @@
 .container {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 32px;
 }
 
+/* Header */
 header {
   background: #1F2937;
   height: 64px;
@@ -38,4 +40,55 @@ header a {
   font-size: 18px;
   margin-left: 16px;
 }
+
+/* Hero */
+
+.hero {
+  padding: 150px 0;
+  background: #1F2937;
+}
+
+.hero .container {
+  display: flex;
+  gap: 12px;
+}
+
+.hero  .container div {
+  flex: 1;
+}
+
+.hero h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.hero .placeholder-box {
+
+  color: #E5E7EB;
+  background: #737373;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero button {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  background: #3882F6;
+  font-size: 18px;
+  color: #F9FAF8;
+  font-weight: bold;
+  
+
+}
+
 
