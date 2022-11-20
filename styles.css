@@ -103,7 +103,6 @@ header a {
   color: #1F2937;
   font-size: 36px;
   font-weight: bold;
-  
 }
 
 .info-bar .info-chunk{
@@ -120,4 +119,5 @@ header a {
 
 .info-bar .info {
   max-width: 164px;
+  color: #737373;
 }
