@@ -133,18 +133,21 @@ header a {
 
 .quote-block {
   background: #E5E7EB;
+  padding: 150px 0;
 }
 
 .quote-block .quote {
   color: #1F2937;
   font-size: 36px;
   font-style: italic;
+  margin-bottom: 24px;
 }
 
 .quote-block .quote-credit{
   font-size: 18px;
   font-weight: bold;
   text-align: right;
+  margin-right: 24px;
 }
 
 
