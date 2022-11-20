@@ -135,4 +135,16 @@ header a {
   background: #E5E7EB;
 }
 
+.quote-block .quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote-block .quote-credit{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
 
