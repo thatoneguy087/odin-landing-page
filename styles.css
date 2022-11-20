@@ -154,3 +154,9 @@ header a {
 }
 
 
+/* Action block */
+
+.action-block .container {
+  display: flex;
+  justify-content: space-between;
+}
