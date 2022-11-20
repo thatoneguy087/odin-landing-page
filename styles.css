@@ -92,31 +92,31 @@ header a {
 }
 
 /* info block */
-.info-bar {
+.info-block {
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
-.info-bar .container{
+.info-block .container{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.info-bar h2 {
+.info-block h2 {
   color: #1F2937;
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 50px;
 }
 
-.info-bar .info-chunk{
+.info-block .info-chunk{
   display: flex;
   gap: 64px;
 }
 
-.info-bar .placeholder-box {
+.info-block .placeholder-box {
   height: 164px;
   width: 164px;
   border: 4px solid #3882F6;
@@ -124,7 +124,10 @@ header a {
   margin-bottom: 12px;
 }
 
-.info-bar .info {
+.info-block .info {
   max-width: 164px;
   color: #737373;
 }
+
+
+
