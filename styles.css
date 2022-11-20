@@ -91,4 +91,9 @@ header a {
 
 }
 
-
+/* info block */
+.info-bar .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
