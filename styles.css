@@ -138,19 +138,26 @@ header a {
   padding: 150px 0;
 }
 
+.quote-block .container {
+  display: flex;
+  flex-direction: column;
+}
+
 .quote-block .quote {
+  max-width: 800px;
   color: #1F2937;
   font-size: 36px;
   font-style: italic;
   margin-bottom: 24px;
   font-weight: 100;
+  align-self: center;
 }
 
 .quote-block .quote-credit{
   font-size: 18px;
   font-weight: bold;
-  text-align: right;
-  margin-right: 24px;
+  margin-right: 150px;
+  align-self: flex-end;
 }
 
 
