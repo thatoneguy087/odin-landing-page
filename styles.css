@@ -135,16 +135,16 @@ header a {
 
 .quote-block {
   background: #E5E7EB;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 .quote-block .container {
+  max-width: 800px;
   display: flex;
   flex-direction: column;
 }
 
 .quote-block .quote {
-  max-width: 800px;
   color: #1F2937;
   font-size: 36px;
   font-style: italic;
@@ -156,7 +156,6 @@ header a {
 .quote-block .quote-credit{
   font-size: 18px;
   font-weight: bold;
-  margin-right: 150px;
   align-self: flex-end;
 }
 
