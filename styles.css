@@ -102,3 +102,10 @@ header a {
   display: flex;
   justify-content: space-between;
 }
+
+.info-bar .placeholder-box {
+  height: 164px;
+  width: 164px;
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+}
