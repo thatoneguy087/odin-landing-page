@@ -99,6 +99,13 @@ header a {
   text-align: center;
 }
 
+.info-bar h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bold;
+  
+}
+
 .info-bar .info-chunk{
   display: flex;
   gap: 64px;
