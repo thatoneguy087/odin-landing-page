@@ -129,5 +129,10 @@ header a {
   color: #737373;
 }
 
+/* Quote block */
+
+.quote-block {
+  background: #E5E7EB;
+}
 
 
