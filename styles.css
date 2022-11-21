@@ -163,12 +163,17 @@ header a {
 /* Action block */
 
 .action-block .container {
-  border: 2px solid black;
   background: #3882F6;
+  border-radius: 4px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .action-block .container div {
-  padding: 0 50px;
+  padding: 0 100px;
+}
+
+.action-block p {
+  color: #F9FAF8; 
 }
