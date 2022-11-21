@@ -7,7 +7,7 @@
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0;
 }
 
 /* Header */
@@ -163,6 +163,12 @@ header a {
 /* Action block */
 
 .action-block .container {
+  border: 2px solid black;
+  background: #3882F6;
   display: flex;
   justify-content: space-between;
+}
+
+.action-block .container div {
+  padding: 0 50px;
 }
