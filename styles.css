@@ -45,13 +45,15 @@ header a {
 /* Hero */
 
 .hero {
-  padding: 150px 0;
+  height: 400px;
   background: #1F2937;
+  display: flex;
+  align-items: center;
 }
 
 .hero .container {
   display: flex;
-  gap: 12px;
+  gap: 32px;
 }
 
 .hero  .container div {
