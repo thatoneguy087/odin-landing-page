@@ -201,3 +201,17 @@ header a {
   border: 2px solid #F9FAF8;
   border-radius: 4px;
 }
+
+/* Footer */
+footer {
+  height: 64px;
+  color: #E5E7EB;
+  background: #1F2937;
+}
+
+footer .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
