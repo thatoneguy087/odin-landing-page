@@ -161,19 +161,13 @@ header a {
 
 /* Action block */
 
-.action-block .container {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding: 64px 0;
-  background: #3882F6;
-  border-radius: 8px;
+.action-block {
+  height: 400px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.action-block .container div {
-  padding: 0 100px;
+.action-block .container {
+  background: #3882F6;
 }
 
 .action-block p {
