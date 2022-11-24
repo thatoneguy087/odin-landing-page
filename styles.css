@@ -162,19 +162,19 @@ header a {
 
 /* Action block */
 
-.action-block {
+.action-block .container {
   height: 400px;
   display: flex;
   align-items: center;
 }
 
-.action-block .container {
-  max-width: 1000px;
+.action-block .pop-up {
   background: #3882F6;
   border-radius: 8px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
   padding: 64px 128px;
 }
 
