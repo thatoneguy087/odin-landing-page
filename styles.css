@@ -169,12 +169,13 @@ header a {
 }
 
 .action-block .container {
+  width: 100%;
   background: #3882F6;
   border-radius: 8px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 128px;
-  padding: 64px 128px;
+  padding: 64px 0;
 }
 
 .action-block p {
